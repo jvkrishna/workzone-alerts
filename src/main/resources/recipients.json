@@ -1,0 +1,12 @@
+[
+	{
+		"mobileNumber": "Required Mobile Number",
+		"firstName": "Optional",
+		"lastName": "Optional",
+		"email": "Optional",
+		"workzones": [
+			"Test Workzone"
+		],
+		"sendAll": true
+	}
+]
