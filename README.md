@@ -48,5 +48,17 @@ Package/File| Usage
 *com.intrans.reactor.workzone.sms.providers*| SMS provider classes.
 *com.intrans.reactor.workzone.utils*| Common helper classes.
 
+## Build with
+* [Spring Boot](https://projects.spring.io/spring-boot/)
+* [Spring Data MongoDB](https://projects.spring.io/spring-data-mongodb/)
+* [Maven](https://maven.apache.org)
+
 ## Documentation
-[Java docs folder](doc/).
+[Java docs folder](doc/)
+
+## Authors
+- Vamsi Krishna J (krishnaj@iastate.edu)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
