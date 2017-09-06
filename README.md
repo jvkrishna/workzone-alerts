@@ -30,4 +30,23 @@ Institute of Transportation:  Workzone Congestion Alerts Module
 5. To access the current bottlenecks (Slow or Stop conditions) in the work zones, use the follwoing feed.
 
 		http://<context-url>/feeds/alertfeed
+## Code Structure
 
+Package/File| Usage
+---|---
+*src/main/resources*| Folder that contains the all configuration files
+*WorkzoneAlertsApp.java*| Entry class that will be invoked by the Spring Boot.
+*com.intrans.reactor.handlers*| This Package has the handler classes for asynchronous processing.
+*com.intrans.reactor.workzone.constants*| Contains the configurations from the resource folder.
+*com.intrans.reactor.workzone.controller*| Controller classes for providing the REST APIs.
+*com.intrans.reactor.workzone.dto*| DTO classes that stores the SMS Requests and Work zone alert requests.
+*com.intrans.reactor.workzone.entities*| MongoDB database document classes.
+*com.intrans.reactor.workzone.handlers*| Service handler for preparing the work zone DTOs.
+*com.intrans.reactor.workzone.repository*| Sping data repository classes for executing the queries.
+*com.intrans.reactor.workzone.sms*| Classes for managing the SMS configurations and handling the SMS requests.
+*com.intrans.reactor.workzone.sms.process*| Service class for generating and processing the SMS request objects.
+*com.intrans.reactor.workzone.sms.providers*| SMS provider classes.
+*com.intrans.reactor.workzone.utils*| Common helper classes.
+
+## Documentation
+[Java docs](./docs/index.html).
