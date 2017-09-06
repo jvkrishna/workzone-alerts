@@ -49,4 +49,4 @@ Package/File| Usage
 *com.intrans.reactor.workzone.utils*| Common helper classes.
 
 ## Documentation
-[Java docs](doc/index.html).
+[Java docs folder](doc/).
